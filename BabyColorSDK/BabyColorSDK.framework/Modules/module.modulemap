@@ -1,0 +1,10 @@
+framework module BabyColorSDK {
+  umbrella header "BabyColorSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BabyColorSDK.Swift {
+    header "BabyColorSDK-Swift.h"
+}
